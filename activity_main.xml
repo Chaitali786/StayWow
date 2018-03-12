@@ -1,0 +1,43 @@
+
+/*Author : CHAITALI*/
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chaitali.staywow.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator" />
+    <Button
+        android:id="@+id/btnwomen"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnmen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:background="#EC8484"
+        android:text="Women"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnmen"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnwomen"
+        android:layout_centerVertical="true"
+        android:background="#149dca"
+        android:text="Men"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
